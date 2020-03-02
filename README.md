@@ -7,6 +7,10 @@ These are all various Python programs for my Legos Mindstorms EV3 device. In its
 
 My next endeavor will be to research a Machine Learning application, whereby the little fella can learn as it motors through life.
 
-**ultrasonic_sensor** - I don't actually have an ultrasonic sensor, but I *do* have an infrared sensor. So I heavily modified this code (well maybe not heavily, I can't really remember at this point what was there and what I added) to work with the sensors I have at hand. It's working as far as turning around when it encounters an obstable, but currently it's not displaying values from the sensors. Lastly, I need to make the infrared barrier longer (longer than the touch sensor arm). A work in progress...
+**ultrasonic_sensor** - I don't actually have an ultrasonic sensor, but I *do* have an infrared sensor. So I heavily modified this code (well maybe not heavily, I can't really remember at this point what was there and what I added) to work with the sensors I have at hand. I've been working lately to "dial in" some of the parameters. For instance, I have the infrared sensor stopping to turn around at 50 mm, which is a bit before the touch sensor would get triggered. However there are times the robot encounters barriers where neither sensor gets triggered. I think the easiest approach is going to be modifying the touch sensor's "arm" to cover a greater space.
+
+The other thing I learned recently was to click on VS Code's **Output** tab if I want to monitor the data the robot's sensors are recording.
+
+All in all, I'm having a lot of fun with this one. I really need to integrate my Pixy camera now...
 
 I will add more to the documentation soon...
